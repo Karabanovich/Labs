@@ -1,0 +1,290 @@
+html,body,.App{
+    width: 100%;
+}
+*{
+    outline:none;
+    font-family:'Montserrat', sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0;
+}
+p{
+   margin: 1px;
+}
+a:hover{
+    color: springgreen;
+    cursor: pointer;
+}
+.title:hover{
+    color: springgreen;
+    cursor: pointer;
+}
+.bold{
+    font-weight: bold;
+}
+.blue{
+    color: rgb(70, 70, 170);
+}
+.bright{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header{
+   color: rgb(247, 247, 247);
+    background:rgb(70, 70, 170);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+
+}
+.header-i{
+    font-size:12px;
+    margin-top:3px;
+}
+.white-i{
+    font-size:15px;
+    color:white;
+}
+.blue-i{
+    font-size:18px;
+    color:rgb(70, 70, 170);
+}
+.left{
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+.round{
+    height: 70px;
+    border-radius: 100px;
+}
+.left-w{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.big{
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+.medium{
+    font-size: 12px;
+}
+.text{
+    font-size: 13px;
+}
+.title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5%;
+
+}
+.main-inf{
+    display: flex;
+    flex-direction: column;
+}
+.pair-inf{
+    display: flex;
+}
+.right-w{
+    margin-left: 7px;
+}
+.main{
+    background: white;
+    display: flex;
+    margin-bottom: 38px;
+}
+.info{
+    width: 25%;
+    background: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top:5px; 
+    padding-left:4%; 
+}
+.prof-inf{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom:7px; 
+}
+#circle {
+	width: 25px;
+	height: 25px;
+	background: rgb(70, 70, 170);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle-back {
+	width: 34px;
+	height: 34px;
+	background: rgb(70, 70, 170);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle-front {
+	width: 25px;
+	height: 25px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.interests{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.int{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.int-text{
+    font-size: 12px;
+    font-weight: bold;
+}
+ul{
+    padding-left: 20px;
+}
+li {
+    width: 100%;
+    margin-top: 10px;    
+}
+li span {
+    display: inline-block;     
+    vertical-align: middle;    
+}
+.portfolio{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top:5px; 
+    padding-left:4%; 
+    align-items: center;
+}
+
+.content{
+     display: flex;
+    flex-direction: column;
+    width: 590px;
+
+}
+.wrap{
+    width: 590px;
+
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(70, 70, 170);
+    color: rgb(247, 247, 247);
+    padding: 10px;
+   
+}
+.footer-w{
+    margin-left: 3%;
+}
+.posts{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.post{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post-img{
+    height: 150px;
+    width: 230px;
+}
+.under{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and ( max-width: 900px) { 
+    .post{
+        height: 160px;
+    }
+    .post-img{
+        height: 110px;
+        width: 160px;
+    }
+    .wrap{
+        width: 430px;
+    }
+    .content{
+        width: 430px;
+    }
+}
+
+@media screen and (max-width: 580px) { 
+    .post{
+        height: 150px;
+    }
+    .post-img{
+        height: 95px;
+        width: 150px;
+    }
+    .wrap{
+        width: 410px;
+    }
+    .content{
+        width: 410px;
+    }
+}
+@media screen and (max-width: 530px) { 
+    .content{
+        width:320px;
+    }
+    .wrap{
+        width: 320px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .info{
+        width: 100%;
+    }
+    .portfolio{
+        width: 100%;
+    }
+}
